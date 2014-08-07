@@ -15,8 +15,8 @@ function procCmd(cmd) {
 function destroyBlock(x, y, z, side) {
 	var blockId = getTile(x,y,z);
 	
-	if (blockId == goldId) {
-		var rnd = Math.floor(Math.random()*(10)); //(pseudo) random number between 0 and 9
+	if (blockId == goldId){
+		var rndh.floor(Math.random()*(10)); //(pseudo) random number between 0 and 9
 		
 		if (rnd == 0 || rnd == 1) {
 			rnd = Math.floor(Math.random()*(5)); //random number between 0 and 4
